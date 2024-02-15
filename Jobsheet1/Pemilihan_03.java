@@ -4,20 +4,20 @@ import java.util.Scanner;
 public class Pemilihan_03 {
     public static void main(String[] args) {
         //untuk memasukkan inputan dari terminal
-        Scanner input15 = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Program Menghitung Nilai Akhir"); 
         System.out.println("=============================="); 
 
         //input nilai
         System.out.print("Nilai Tugas (0-100): ");
-        double tugas = input15.nextFloat();
+        double tugas = sc.nextFloat();
         System.out.print("Nilai Kuis (0-100): ");
-        double kuis = input15.nextFloat();
+        double kuis = sc.nextFloat();
         System.out.print("Nilai UTS (0-100): ");
-        double uts = input15.nextFloat();
+        double uts = sc.nextFloat();
         System.out.print("Nilai UAS (0-100): ");
-        double uas = input15.nextFloat();
+        double uas = sc.nextFloat();
 
         System.out.println("=============================="); 
 

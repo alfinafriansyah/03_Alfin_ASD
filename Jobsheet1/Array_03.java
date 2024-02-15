@@ -10,7 +10,8 @@ public class Array_03 {
 
         Scanner input15 = new Scanner(System.in);
 
-        String[] mk = {"Pancasila","Konsep Teknologi Informasi","Critical Thinking dan Problem Solving","Matematika Dasar","Bahasa Inggris","Dasar Pemrograman","Praktikum Dasar Pemrograman","Keselamatan dan Kesehatan Kerja"};
+        String[] mk = {"Pancasila","Konsep Teknologi Informasi","Critical Thinking dan Problem Solving",
+        "Matematika Dasar","Bahasa Inggris","Dasar Pemrograman","Praktikum Dasar Pemrograman","Keselamatan dan Kesehatan Kerja"};
         int[] sks = {2,2,2,3,2,2,3,2};
         double[] nilaiAngka = new double[8];
         String[] nilaiHuruf = new String[8];
