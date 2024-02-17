@@ -8,7 +8,7 @@ public class Array_03 {
         System.out.println("Program Menghitung IP Semester");
         System.out.println("==============================");
 
-        Scanner input15 = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         String[] mk = {"Pancasila","Konsep Teknologi Informasi","Critical Thinking dan Problem Solving",
         "Matematika Dasar","Bahasa Inggris","Dasar Pemrograman","Praktikum Dasar Pemrograman","Keselamatan dan Kesehatan Kerja"};
@@ -21,7 +21,7 @@ public class Array_03 {
 
         for (int i = 0; i < mk.length; i++) {
             System.out.print("Masukkan nilai angka untuk MK " + mk[i] + ": ");
-            nilaiAngka[i] = input15.nextDouble();
+            nilaiAngka[i] = sc.nextDouble();
 
             if (nilaiAngka[i] <= 100 && nilaiAngka[i] > 80) {
                 nilaiHuruf[i] = "A";
