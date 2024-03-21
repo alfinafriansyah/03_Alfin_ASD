@@ -28,7 +28,7 @@ public class DaftarMahasiswaBerprestasi03 {
                 if(listMhs[j].ipk > listMhs[j-1].ipk){
                     Mahasiswa03 tmp = listMhs[j];
                     listMhs[j] = listMhs[j-i];
-                    listMhs[j-1] = tmp;
+                    listMhs[j-1] = tmp; 
                 }
             }
         }

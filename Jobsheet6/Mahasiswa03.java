@@ -16,5 +16,6 @@ public class Mahasiswa03 {
         System.out.println("Nama = " + nama);
         System.out.println("Tahun Masuk = " + thnMasuk);
         System.out.println("Umur = " + umur);
+        System.out.println("IPK = " + ipk);
     }
 }
